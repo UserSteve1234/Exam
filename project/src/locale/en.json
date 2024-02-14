@@ -1,0 +1,38 @@
+{
+    "translation": {
+        "nav": {
+            "home": "Home",
+            "excursions": "Excursions",
+            "personal": "Personal"
+        },
+        "Homepage": {
+            "to": "Excursions list -->",
+            "popular": "Popular excursions",
+            "see": "See all",
+            "types": "Excursion types",
+            "f_tour": "Bus tour",
+            "s_tour": "Jipping",
+            "th_tour": "Yachting",
+            "fth_tour": "Canyoning",
+            "feedback": "Feedbacks",
+            "form_title": "Still have questions?",
+            "form_sec": "Leave a request and we will respond",
+            "request": "Send request"
+        },
+        "Travelspage": {
+            "our": "OUR EXCURSIONS",
+            "show": "Show",
+            "filters": "Filters",
+            "cost": "Cost",
+            "persons": "Number of persons",
+            "place": "Place",
+            "duration": "Duration",
+            "date": "Date",
+            "tours": "Our tours",
+            "details": "Details"
+            
+        }
+        
+        
+    }
+}

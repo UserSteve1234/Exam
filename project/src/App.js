@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import AllComponents from './components/AllComponents.jsx'
+import { context, initialState, globalReducer } from './store'
+import { useReducer } from 'react';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
+
 
 function App() {
+  const [state, dispatch] = useReducer(globalReducer, initialState)
+
+  const value = {
+    store: state,
+    setStore: dispatch
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+
+      <BrowserRouter>
+        <React.StrictMode>
+          <I18nextProvider i18n={i18n}>
+            <context.Provider value={value}>
+              <AllComponents />
+            </context.Provider>
+          </I18nextProvider>
+        </React.StrictMode>
+      </BrowserRouter>
     </div>
   );
 }

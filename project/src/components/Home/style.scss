@@ -1,0 +1,357 @@
+@import '../../assets/styles/_settings.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Oswald:wght@500&family=Playpen+Sans:wght@600&display=swap');
+
+* {
+    transition: 0.5s;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    width: 1790px;
+    height: 6100px;
+
+    .upper {
+        background-image: url(./images/Rectangle.png);
+        width: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 160px;
+        align-items: center;
+        width: 1410px;
+        height: 470px;
+
+        .social {
+            position: relative;
+            left: 400px;
+        }
+
+    }
+
+    .video {
+        position: relative;
+        left: 1115px;
+        bottom: 120px;
+    }
+
+    .downer {
+        color: snow;
+        margin-bottom: 500px;
+    }
+
+    .right {
+        margin-left: 200px;
+    }
+
+    .btnB {
+        color: snow;
+        background-color: #0499DD;
+        width: 230px;
+        height: 50px;
+        border-radius: 60px;
+        border: none;
+    }
+
+    button:hover {
+        background-color: snow;
+        color: #0499DD;
+        box-shadow: 5px 5px 15px 5px #0499DD;
+        cursor: pointer;
+    }
+
+    .ex {
+        color: #0499DD;
+    }
+
+    .cards {
+        display: flex;
+
+
+        .card {
+            width: 360px;
+            height: 497px;
+            margin: 10px;
+            border-radius: 10px;
+            color: snow;
+
+            .cardWrapper {
+                height: 60%;
+                width: 90%;
+                position: relative;
+                top: 30%;
+                margin: auto;
+                text-align: start;
+            }
+
+            .cardTitle {
+                font-size: 12px;
+                font-family: 'Montserrat', sans-serif;
+                line-height: 15px;
+            }
+
+            .cardTitle2 {
+                color: #FFC700;
+                font-size: 17px;
+            }
+
+            .text1 {
+                width: 328px;
+                height: 100px;
+            }
+
+            .btn1 {
+                color: snow;
+                background-color: #0499DD;
+                width: 160px;
+                height: 40px;
+                border-radius: 40px;
+                border: none;
+                position: relative;
+                bottom: -40px;
+            }
+
+            button:hover {
+                background-color: snow;
+                color: #0499DD;
+                box-shadow: 5px 5px 15px 5px #0499DD;
+                cursor: pointer;
+            }
+
+            .imgs {
+                display: flex;
+                width: 100%;
+
+                p {
+                    margin: 10px;
+                    position: relative;
+                    right: 400px;
+                }
+            }
+        }
+
+        .cardImage1 {
+            background-image: url(./images/RectangleAA.png);
+        }
+
+        .cardImage2 {
+            background-image: url(./images/RectangleA.png);
+        }
+
+        .cardImage3 {
+            background-image: url(./images/RectangleB.png);
+        }
+
+        .cardImage4 {
+            background-image: url(./images/RectangleC.png);
+        }
+    }
+
+    .exFlex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    .seeAll {
+        color: gray;
+        position: relative;
+        left: 240px;
+        
+
+    }
+
+    .examples {
+        padding: 50px;
+    }
+
+    .black {
+        color: black;
+    }
+
+    .exurs {
+        margin-left: 70px;
+        display: grid;
+        grid-template-columns: 1.1fr 1fr;
+        width: 1400px;
+    }
+
+    .exurs img {
+        position: relative;
+        top: 80px;
+        right: 90px;
+    }
+
+    .exurs div {
+        padding-right: 100px;
+    }
+
+    .choose {
+        margin-right: 300px;
+        color: black;
+        text-align: center;
+    }
+
+    .to {
+        margin-left: 595px;
+    }
+
+    .gal {
+        position: relative;
+        top: 149px;
+        left: 46px;
+    }
+
+    .n1 {
+        display: flex;
+        width: 900px;
+        height: 322px;
+        border: none;
+        border-radius: 10px;
+        background-color: gray;
+        padding: 15px;
+    }
+
+    .n1 div {
+        margin: 10px;
+        text-align: start;
+    }
+
+    .n2 {
+        position: relative;
+        left: 80px;
+    }
+
+    form {
+        width: 1730px;
+        height: 640px;
+        background-image: url(./images/RectangleAC.png);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form div {
+        width: 655px;
+        // height: 640px;
+    }
+
+    .formFill {
+        background-color: black;
+        padding: 100px;
+    }
+
+    .formFill input,
+    button {
+        margin: 5px;
+    }
+
+    .yellow {
+        color: #FFC700;
+    }
+
+    .transparent {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid snow;
+        width: 360px;
+        height: 15px;
+        color: snow;
+    }
+
+    @media (max-width: $large-screen) {
+        .video {
+            left: 688px;
+        }
+
+        .imgAbout {
+            width: 1000px;
+        }
+
+        .exFlex {
+            width: 200vh;
+        }
+
+        .types {
+            padding: 20px;
+        }
+    }
+
+    @media (max-width: $medium-screen) {
+        .video {
+            left: 728px;
+            // bottom: 140px;
+        }
+
+        .imgAbout {
+            width: 900px;
+        }
+    }
+
+    @media (max-width: $small-screen) {
+
+
+        .video {
+            left: 698px;
+            // bottom: -140px;
+
+        }
+    }
+
+    // @media (max-width: 549px) {
+
+
+    //     .video {
+    //         left: 682px;
+    //         bottom: -140px;
+
+    //     }
+
+    //     .social {
+    //         position: relative;
+    //         right: 200px;
+    //     }
+    // }
+
+    // @media (max-width: 464px) {
+
+
+    //     .video {
+    //         left: 682px;
+    //         // bottom: -140px;
+
+    //     }
+
+    //     .social {
+    //         position: relative;
+    //         right: 490px;
+    //     }
+    // }
+
+    @media (max-width: 449px) {
+
+
+        .zagol {
+            width: 400px;
+        }
+
+        .btnB {
+            width: 100px;
+            height: 30px;
+        }
+
+        .video {
+            left: 702px;
+            // bottom: -140px;
+
+        }
+
+        
+
+        .examples {
+            padding: 60px;
+        }
+    }
+}

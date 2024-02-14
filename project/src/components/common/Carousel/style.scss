@@ -1,0 +1,11 @@
+@import '../../Home/style.scss';
+@import '../../../assets/styles/settings';
+
+.carousel-component {
+    .carousel {
+        button {
+            height: 600px;
+            margin-right: 50px;
+        }
+    }
+}

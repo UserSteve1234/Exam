@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Oswald:wght@500&family=Playpen+Sans:wght@600&display=swap');
+
+* {
+    transition: 0.5s;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(128, 128, 128, 0.116);
+}
+
+.zagolovok {
+    padding: 1px;
+    background-image: url(./images/RectangleUp.png);
+    width: 1440px;
+    height: 289px;
+    color: white;
+    font-size: 30px;
+
+    h1 {
+        padding: 100px;
+    }
+}
+
+.blue {
+    color: #0499DD;
+}
+
+.btnB {
+    color: snow;
+    background-color: #0499DD;
+    width: 230px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+}
+
+.btnB:hover {
+    color: #0499DD;
+    background-color: snow;
+}
+
+.yellow {
+    color: #FFC700;
+}
+
+
+
+.upperB {
+    margin-top: 20px;
+    width: 1000px;
+    height: 200px;
+    // padding: 200px;
+    background-color: white;
+    margin-left: 170px;
+    border-radius: 10px;
+
+
+    .links {
+        display: flex;
+        margin-left: 260px;
+
+
+        p {
+            padding: 10px;
+            border-bottom: 2px gray solid;
+
+        }
+
+        p:hover {
+            border-bottom: #0499DD 2px solid;
+            color: #0499DD;
+            cursor: pointer;
+        }
+    }
+
+    .inputs {
+        display: flex;
+
+
+
+        input {
+            width: 235px;
+            height: 50px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 1px 1px 4px 1px rgba(128, 128, 128, 0.281);
+        }
+    }
+}
+
+.main {
+    display: flex;
+
+
+
+    .filter {
+        background-color: white;
+        width: 295px;
+        height: 1018px;
+        margin-left: 170px;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+
+        .input-filter {
+            display: flex;
+
+            input {
+                padding: 4px;
+                width: 107px;
+                height: 30px;
+                border-radius: 40px;
+                border: 1px gray solid;
+                margin-left: 15px;
+            }
+        }
+
+        .filter-btns {
+
+
+            .buttonHM {
+                margin: 2px;
+                width: 73px;
+                height: 30px;
+                border-radius: 40px;
+                border: 1px gray solid;
+            }
+
+            .buttonHM2 {
+                width: 149px;
+                height: 30px;
+                border-radius: 40px;
+                border: 1px gray solid;
+
+            }
+
+            button:hover {
+                background-color: #0499DD;
+                color: snow;
+                border: none;
+                box-shadow: none;
+            }
+        }
+
+    }
+
+    .tours {
+        margin: 22px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+        .tour {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            width: 779px;
+            height: 303px;
+            margin: 15px;
+
+            .text {
+                font-size: small;
+                padding: 5px;
+                border-left: #0499DD 3px solid;
+            }
+
+            .titles {
+                margin-left: 30px;
+            }
+
+            .imgs {
+                display: flex;
+                align-items: center;
+
+                img {
+                    position: relative;
+                    right: 400px;
+                    margin: 5px;
+                }
+            }
+
+            .it {
+                display: flex;
+                align-items: center;
+
+
+            }
+        }
+    }
+
+    .linkz {
+        margin-left: 350px;
+
+        a {
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+
+        }
+
+        a:hover {
+            color: #0499DD;
+        }
+    }
+}

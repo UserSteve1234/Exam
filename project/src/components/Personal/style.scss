@@ -1,0 +1,135 @@
+@import '../../assets/styles/settings';
+@import "~react-toastify/dist/ReactToastify.css";
+
+.useContext {
+    padding: 100px;
+    background-color: gray;
+
+    h1 {
+        color: snow;
+    }
+
+    p {
+        color: snow;
+        font-size: xx-large;
+    }
+
+    button {
+        padding: 10px;
+        width: 130px;
+        margin: 6px;
+        border: none;
+        border-radius: 10px;
+        background-color: $blue;
+        color: snow;
+    }
+
+    button:hover {
+        background-color: snow;
+        color: $blue;
+    }
+}
+
+.useState {
+    padding: 70px;
+
+    input {
+        padding: 5px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px black solid;
+    }
+
+    input:focus {
+        transform: scale(1.2);
+    }
+
+}
+
+.useReducer {
+    padding: 30px;
+
+    input {
+        padding: 5px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px black solid;
+    }
+
+    input:focus {
+        transform: scale(1.2);
+    }
+
+    button {
+        padding: 13px;
+        width: 130px;
+        margin: 6px;
+        border: none;
+        border-radius: 10px;
+        background-color: $blue;
+        color: snow;
+    }
+
+    button:hover {
+        background-color: snow;
+        color: $blue;
+
+    }
+
+    button:active {
+        background-color: rgb(72, 255, 0);
+        color: snow;
+    }
+}
+
+.else {
+    padding: 70px;
+    text-align: center;
+    background-color: black;
+    color: snow;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    input {
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px snow solid;
+        margin: 15px;
+        color: snow;
+    }
+
+    input:focus {
+        transform: scale(1.2);
+    }
+
+    button {
+        padding: 15px;
+        width: 140px;
+        margin: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: $blue;
+        color: snow;
+    }
+
+    button:hover {
+        background-color: snow;
+        color: $blue;
+
+    }
+
+    button:active {
+        background-color: rgb(72, 255, 0);
+        color: snow;
+    }
+
+    textarea {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px snow solid;
+        color: snow;
+        padding: 10px;
+    }
+}
