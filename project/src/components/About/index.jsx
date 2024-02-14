@@ -65,7 +65,7 @@ const About = (props) => {
             </div>
             <br /><br /><br />
             <div className="down">
-                <h2 className="blue">Описание экскурсии</h2><br /><br />
+                <h2 className="blue">{t('About.desc')}</h2><br /><br />
                 <div className="desc">
                     <div className="p">
                         <p>Вас ждет путешествие по "Золотому Кольцу <br /> Абхазии" на Мерседес Спринтер (20 мест). По <br />
@@ -91,7 +91,7 @@ const About = (props) => {
             <div className="down flexy">
 
                 <div className="next">
-                    <h2 className="blue">Описание маршрута</h2><br /><br />
+                    <h2 className="blue">{t('About.route')}</h2><br /><br />
                     <img src={Elipse} alt="" />
                     <p>Город Гагра, Колоннада, ресторан "Гагрипш", Парк принца <br /> Ольденбурского;</p>
                     <img src={Elipse} alt="" />
@@ -119,15 +119,15 @@ const About = (props) => {
             <div className="down">
                 <img src={RasImg} alt="" />
                 <br /><br /><br /><br /><br /><br /><br /><br />
-                <h2 className="blue">Важная информация</h2>
+                <h2 className="blue">{t('About.info')}</h2>
                 <br /><br /><br />
-                <h3>При пересечении границы (Россия-Абхазия) при себе иметь:</h3>
+                <h3>{t('About.requirements')}</h3>
                 <div className="pass">
                     <div className="port">
                         <img src={PasImg} alt="" />
-                        <h3 className="blue">Паспорт гражданина РФ</h3><br />
+                        <h3 className="blue">{t('About.passport')}</h3><br />
                         <img src={PasImg} alt="" />
-                        <h3 className="blue">Гражданам до 14 лет свидетельство о рождении</h3>
+                        <h3 className="blue">{t('About.certificate')}</h3>
                         <p>Несовершеннолетние дети пересекают границу в <br /> сопровождении родителей, в сопровождении
                             законного <br />
                             представителя (нотариально заверенная доверенность <br /> с указанием страны вывоза ребенка).</p>
@@ -143,8 +143,8 @@ const About = (props) => {
             <img src={GalImg} alt="" />
             <br /><br /><br /><br />
             <div className="flex items">
-                <h2 className="blue">Отзывы</h2>
-                <a href="/travels" className="seeAll">Смотреть все</a>
+                <h2 className="blue">{t('Homepage.feedback')}</h2>
+                <a href="/travels" className="seeAll">{t('Homepage.see')}</a>
             </div>
 
             <br /><br /><br />
@@ -158,7 +158,7 @@ const About = (props) => {
                     <img src={IzobImg} alt="" width="803px" />
                 </div>
                 <div className="left">
-                    <h2 className="blue">Забронировать тур</h2>
+                    <h2 className="blue">{t('About.book')}</h2>
                     <input type="date" onChange={(e) => setDate(e.target.value)} /><br />
                     <input type="text" placeholder='Количество взрослых' /><br />
                     <input type="text" placeholder='Количество детей' /><br /><br /><br />

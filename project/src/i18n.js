@@ -8,7 +8,7 @@ i18n.use(initReactI18next).init({
     en: { ...enJSON },
     ru: { ...ruJSON },
   },
-  lng: "en",
+  lng: "ru",
   fallbackLng: "en",
 });
 

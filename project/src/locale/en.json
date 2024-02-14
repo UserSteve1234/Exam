@@ -31,6 +31,15 @@
             "tours": "Our tours",
             "details": "Details"
             
+        },
+        "About": {
+            "desc": "Excursion description",
+            "route": "Route description",
+            "info": "Important information",
+            "requirements": "When crossing the border (Russia-Abkhazia) have with you:",
+            "passport": "Passport of a citizen of the Russian Federation",
+            "certificate": "For citizens under 14 years of age, birth certificate",
+            "book": "Book a tour"
         }
         
         
