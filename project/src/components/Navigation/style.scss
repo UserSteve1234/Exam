@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    left: 70px;
+    color: snow;
+    z-index: 2;
+    
+
+    // #navbar-wrapper {
+        
+    // }
+    
+    .nav-links {
+        
+    
+        a {
+                text-decoration: none;
+                padding: 10px 20px;
+                display: inline-block;
+                color: snow;
+        }
+    }
+
+    .auth {
+
+        span {
+            text-decoration: underline;
+            font-size: larger;
+        }
+
+        span:hover {
+            cursor: pointer;
+            color: rgb(0, 252, 197);
+        }
+    }
+}
